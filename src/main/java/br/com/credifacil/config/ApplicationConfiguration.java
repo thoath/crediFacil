@@ -1,4 +1,4 @@
-package br.com.gympoint.config;
+package br.com.credifacil.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

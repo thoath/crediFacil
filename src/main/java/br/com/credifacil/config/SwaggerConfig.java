@@ -18,9 +18,10 @@ public class SwaggerConfig {
 
         return new Docket(DocumentationType.SWAGGER_2).select()
                 .apis(RequestHandlerSelectors
-                        .basePackage("com.swathisprasad.springboot"))
+                        .basePackage("br.com.credifacil"))
                 .paths(PathSelectors.any())
                 .build();
     }
 
+   
 }
